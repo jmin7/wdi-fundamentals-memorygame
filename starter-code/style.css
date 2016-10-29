@@ -1,32 +1,5 @@
-body {
+h1, h2, p {
 	text-align: center;
-}
-
-nav {
-	background-color: grey;
-	display: block;
-}
-
-a {
-	background-color: #ffbf00;
-	color: white;
-	display: block;
-	float: left;
-	padding: 35px;
-	text-decoration: none;
-}
-
-.clearfix:after {
-        visibility: hidden;
-        display: block;
-        content: " ";
-        clear: both;
-        height: 0;
-        font-size: 0;
-      }
-
-a:hover {
-	background-color: #ee5f3c;
 }
 
 h1 {
@@ -54,7 +27,34 @@ h2 {
 	margin: 8%;
 }
 
+nav {
+	background-color: grey;
+}
+
+a {
+	background-color: #ffbf00;
+	color: white;
+	display: block;
+	float: left;
+	padding: 35px;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #ee5f3c;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+
+
 footer {
-	clear: both;
 	background-color: #808080;
+	text-align: center;
 }
